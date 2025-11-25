@@ -4,10 +4,10 @@ from datetime import datetime, timedelta
 
 # -------------------------- 内置配置（无需修改，直接运行）--------------------------
 # 示范监控目标：以太坊Uniswap V3 WETH-USDC LP池（主流成熟合约，数据充足）
-TARGET_CONTRACT = "0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f564"
+TARGET_CONTRACT = "0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640"
 CHAIN = "ethereum"
 LP_POOL_ADDRESS = TARGET_CONTRACT
-CORE_TOKEN = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB"  # USDC合约地址
+CORE_TOKEN = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"  # USDC合约地址
 ETHERSCAN_API_KEY = "YourApiKeyToken"  # Etherscan免费API默认占位符（无Key也能跑）
 
 # 监控阈值（Demo专用，平衡效果与误报）
